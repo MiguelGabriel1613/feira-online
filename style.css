@@ -1,8 +1,15 @@
+:root{
+
+  --cor-fundo: #f5f5f5;
+
+  
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f5f5f5;
+  background-color: var(--cor-fundo);
 }
 
 header {
@@ -16,8 +23,39 @@ header {
   padding: 20px;
 }
 
-.card {
+.card-2 {
   background-color: rgba(156, 156, 156, 0.912);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 35px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-2 img {
+  width: 10%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.card-2 h3 {
+  color: #62201fde;
+}
+
+.card-2 p {
+  color: #333;
+}
+
+.card-2 .time-remaining {
+  background-color: hsla(0, 73%, 26%, 0.868);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.912);
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 35px;
@@ -31,7 +69,7 @@ header {
 }
 
 .card h3 {
-  color: #62201fde;
+  color: #4CAF50;
 }
 
 .card p {
@@ -39,8 +77,8 @@ header {
 }
 
 .card .time-remaining {
-  background-color: hsla(0, 73%, 26%, 0.868);
-  color: white;
+  background-color: hsla(0, 5%, 29%, 0.868);
+  color: #4CAF50;
   padding: 5px 10px;
   border-radius: 5px;
   display: inline-block;
@@ -67,4 +105,9 @@ nav a:hover {
  .menu {
   border-radius: 35px;  
  }
-
+.final {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+}
